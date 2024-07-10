@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+    <link rel="shortcut icon" href="/images/html_logo.png" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        body {
+            padding: 10px;
+            margin: 10px;
+            background-color: #426A5A;
+
+        }
+
+        h1 {
+            width: 200px;
+            height: auto;
+            background-color: tomato;
+            border: 2px dashed white;
+            text-align: center;
+            margin: 20px;
+
+        }
+
+        h3 {
+            color: aqua;
+        }
+
+        .div {
+            height: 80px;
+            background-color: #9f3e9f;
+            margin: 15px;
+        }
+
+        .div1 {
+            height: 166px;
+            background-color: #9f3e9f;
+            margin: 15px;
+
+        }
+
+        .div2 {
+            height: 55px;
+            background-color: #9f3e9f;
+            margin: 15px;
+
+        }
+
+        .btn {
+            border: 2px solid white;
+            background-color: red;
+            color: rgba(14, 49, 165);
+            text-decoration-line: none;
+            height: 20px;
+            width: 100px;
+            margin: 10px;
+            text-align: center;
+            border-radius: 12px;
+            font-size: 15px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>CSS Selector</h1>
+    <h3>The element Selector Select HTML elements based on the element name.</h3>
+    <div class="div1">
+        <pre>
+            <code>
+                Selector{
+                    Property : Value;
+                }
+                Like:
+
+                p{
+                    text-align:Center;
+                }
+
+            </code>
+        </pre>
+    </div>
+    <h1>CSS Id Selector</h1>
+    <h3>The id selector select specific element with unique Name.</h3>
+    <div class="div">
+        <pre>
+            <code>
+                #id{
+                    text-align:Center
+                }
+            </code>
+        </pre>
+    </div>
+    <h1>CSS Class Selector</h1>
+    <h3>The Class selector select HTML elements with a specific class element</h3>
+    <div class="div">
+        <pre>
+            <code>
+                .id{
+                    text-align :Center
+                }
+            </code>
+        </pre>
+    </div>
+    <h1>Multiple Selector</h1>
+    <h3>The Class selector select HTML elements with a specific class element</h3>
+    <div class="div">
+        <pre>
+            <code>
+                .id div #div{
+                    text-align:center;
+                    color:black;
+                }
+            </code>
+        </pre>
+    </div>
+    <h1>Comments</h1>
+    <h3>Comments are not displayed in browser, But they can Help document your source code.</h3>
+    <div class="div2">
+        <pre>
+            <code>
+                /* This is CSS Comments */
+            </code>
+        </pre>
+    </div>
+    <div class="btn">
+        <button><a href="/html-css/colors.html">Next Page</a></button>
+    </div>
+
+</body>
+
+</html>

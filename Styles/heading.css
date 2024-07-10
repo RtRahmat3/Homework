@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    border: 10px solid thistle;
+    border-radius: 10px;
+    background-color: rgb(100, 133, 127);
+    font-size: 32px;
+    
+}
+.box{
+    background-color: rgb(7, 73, 108);
+    height: 80vh;
+    border: 5px solid black;
+}
+.h1{
+    border: 2px solid rgb(14, 73, 168);
+    text-align: center;
+    color: beige;
+    
+   
+}
+.h2{
+    border: 2px solid rgb(25, 137, 131);
+    text-align: center;
+    color: bisque;
+   
+}
+.h3{
+    border: 2px solid rgb(25, 137, 131);
+    text-align: center;
+    color: aqua;
+}
+.h4{
+    border: 2px solid rgb(25, 137, 131);
+    text-align: center;
+    color: blanchedalmond;
+   
+}
+.h5{
+    border: 2px solid rgb(25, 137, 131);
+    text-align: center;
+    color: darksalmon;
+   
+}
+.h6{
+    border: 2px solid rgb(25, 137, 131);
+    text-align: center;
+    color: lemonchiffon;
+   
+}
